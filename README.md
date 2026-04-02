@@ -185,17 +185,54 @@ Optional:
 
 ## Installation
 
+### From npm (Recommended)
+
 ```bash
-npm install
+# Run directly without installing
+npx agentx-runtime
+
+# Or install globally
+npm install -g agentx-runtime
+agentx
 ```
 
-Build TypeScript:
+### From Source
 
 ```bash
+git clone https://github.com/GANESH4511/AgentX.git
+cd AgentX
+npm install
 npm run build
 ```
 
 ## Quick Start
+
+### Using npx (Quickest)
+
+```bash
+# 1. Set your API key
+# PowerShell:
+$env:INFINITAI_API_KEY = "your_key_here"
+# Bash:
+export INFINITAI_API_KEY="your_key_here"
+
+# 2. Run AgentX
+npx agentx-runtime --init   # First time: generates config
+npx agentx-runtime          # Start the agent
+```
+
+### Using Global Install
+
+```bash
+# Install once
+npm install -g agentx-runtime
+
+# Run anywhere
+agentx --init   # First time: generates config
+agentx          # Start the agent
+```
+
+### From Source
 
 1. Initialize config:
 
