@@ -1,0 +1,23 @@
+{
+  "swarms": {
+    "swarm-1775118255639-yswrve": {
+      "swarmId": "swarm-1775118255639-yswrve",
+      "topology": "hierarchical",
+      "maxAgents": 5,
+      "status": "running",
+      "agents": [],
+      "tasks": [],
+      "config": {
+        "topology": "hierarchical",
+        "maxAgents": 5,
+        "strategy": "specialized",
+        "communicationProtocol": "message-bus",
+        "autoScaling": true,
+        "consensusMechanism": "majority"
+      },
+      "createdAt": "2026-04-02T08:24:15.639Z",
+      "updatedAt": "2026-04-02T08:24:15.639Z"
+    }
+  },
+  "version": "3.0.0"
+}

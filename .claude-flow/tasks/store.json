@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "task-1775118255643-bwv8wz": {
+      "taskId": "task-1775118255643-bwv8wz",
+      "type": "implementation",
+      "description": "build a login page in js",
+      "priority": "normal",
+      "status": "completed",
+      "progress": 0,
+      "assignedTo": "[\"agent-1775118265434-ismx37\",\"agent-1775118265440-ww9kbh\",\"agent-1775118265449-bcx2kp\",\"agent-1775118265455-49t3r8\",\"agent-1775118265459-lx8r0x\"]",
+      "tags": [],
+      "createdAt": "2026-04-02T08:24:15.643Z",
+      "startedAt": "2026-04-02T08:24:25.466Z",
+      "completedAt": null
+    }
+  },
+  "version": "3.0.0"
+}
