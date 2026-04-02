@@ -4,9 +4,9 @@ AgentX is a terminal-first AI coding agent runtime built in TypeScript.
 
 ## Release Status
 
-First public release: v1.0.0
+First public release: v0.1.0
 
-This is the initial release of AgentX. Core architecture and major feature sets are implemented and usable end-to-end, and this release is focused on real-world usage plus feedback-driven hardening.
+This is the initial release of AgentX.Core architecture and major feature sets are implemented and usable end-to-end, and this release is focused on real-world usage plus feedback-driven hardening.
 
 It is designed to be a host runtime that can:
 
@@ -17,7 +17,7 @@ It is designed to be a host runtime that can:
 
 In practice, this project is a replacement-style host runtime for orchestrated agent workflows where provider flexibility and tool autonomy matter.
 
-## Initial Release Scope (v1.0.0)
+## Initial Release Scope (v0.1.0)
 
 What is included in this first release:
 
@@ -49,7 +49,7 @@ What to expect at this stage:
 - [MCP Integration](#mcp-integration)
 - [Swarm Orchestration](#swarm-orchestration)
 - [Troubleshooting](#troubleshooting)
-- [Post-v1.0.0 Roadmap](#post-v100-roadmap)
+- [Post-v0.1.0 Roadmap](#post-v010-roadmap)
 
 ## Why AgentX
 
@@ -550,7 +550,7 @@ Jest is configured with Node test environment.
 - Increase task specificity in prompt.
 - Switch to a stronger tier/model for more reliable tool formatting.
 
-## Post-v1.0.0 Roadmap
+## Post-v0.1.0 Roadmap
 
 - Add unregister support in `ToolRegistry` for dynamic MCP refresh cleanup
 - Add richer policy controls for `run_command`
