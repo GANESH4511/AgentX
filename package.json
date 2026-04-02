@@ -1,11 +1,51 @@
 {
-  "name": "agentx",
+  "name": "agentx-runtime",
   "version": "0.1.0",
+  "description": "Terminal-first AI coding agent runtime with multi-provider support, XML tool-calling, MCP integration, and swarm orchestration",
   "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "agentx": "dist/bin/agentx.js",
+    "agentx-runtime": "dist/bin/agentx.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "jest",
     "start": "node dist/src/index.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "llm",
+    "coding-agent",
+    "terminal",
+    "cli",
+    "openai",
+    "ollama",
+    "mcp",
+    "swarm",
+    "multi-agent",
+    "typescript"
+  ],
+  "author": "Ganesh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GANESH4511/AgentX.git"
+  },
+  "homepage": "https://github.com/GANESH4511/AgentX",
+  "bugs": {
+    "url": "https://github.com/GANESH4511/AgentX/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
