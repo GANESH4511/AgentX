@@ -1,6 +1,6 @@
 # AgentX
 
-AgentX is a terminal-first AI coding agent runtime built in TypeScript.
+AgentX is a terminal AI coding agent runtime built in TypeScript.
 
 ## Release Status
 
